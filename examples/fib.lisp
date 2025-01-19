@@ -4,7 +4,7 @@
           (fibIter b (add a b) (minus n 1))))
 
 (defn (fib : Num) [(n : Num)]
-      (fibIter 0 0 n))
+      (fibIter 0 1 n))
 
 (def (n : Num) 10)
 (defn (main : Num) []
